@@ -1,0 +1,61 @@
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+    font-size: 30px !important;
+    opacity: 1 !important;
+}
+
+.slick-prev {
+    left: 10px !important;
+    z-index: 10;
+}
+
+.slick-next {
+    right: 10px !important;
+    z-index: 10;
+}
+
+.produk-section {
+    cursor: grab;
+}
+
+.carosel-section {
+    cursor: grab;
+}
+
+h6,
+h2,
+h4,
+h5,
+.penulis {
+    font-family: 'Lora', serif;
+}
+
+.deskripsi {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.notif-popup {
+    position: absolute;
+    top: 35px;
+    right: -10px;
+    background: white;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 150px;
+    z-index: 100;
+}
+
+.arrow-up {
+    position: absolute;
+    top: -8px;
+    right: 18px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 8px solid white;
+    filter: drop-shadow(0 -2px 2px rgba(0, 0, 0, 0.1));
+}
