@@ -57,9 +57,8 @@ npm run dev
 
 Tambahkan screenshot tampilan web agar lebih menarik:
 
-/screenshots/homepage.png
-
-/screenshots/detail.png
+![Home Screenshot](screenshots/home.png)
+![Detail Screenshot](screenshots/detail.png)
 
 🤝 Kontribusi
 
