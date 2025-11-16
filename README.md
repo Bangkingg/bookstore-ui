@@ -1,4 +1,4 @@
-📚 Litera — React Bookstore UI
+# 📚 Litera — React Bookstore UI
 
 Tampilan antarmuka toko buku modern yang dibangun menggunakan React + Bootstrap.
 Didesain agar clean, responsif, dan mudah dikembangkan untuk kebutuhan e-commerce buku.
@@ -25,31 +25,33 @@ FontAwesome Icons
 
 React Hooks (useState, useEffect)
 
-🚀 Cara Menjalankan Project
-# 1. Clone repository
+# 🚀 Cara Menjalankan Project
+## 1. Clone repository
 git clone https://github.com/username/litera-react.git
 
-# 2. Masuk ke folder project
+## 2. Masuk ke folder project
 cd litera-react
 
-# 3. Install dependencies
+## 3. Install dependencies
 npm install
 
-# 4. Jalankan project
+## 4. Jalankan project
 npm run dev
 
 📁 Struktur Folder
-src/
- ├── components/
- │    ├── Navbar.jsx
- │    ├── Search.jsx
- │    ├── CardBook.jsx
- │    └── Footer.jsx
- ├── data/
- │    └── buku.jsx
- ├── styles/
- │    └── main.css
- └── App.jsx
+
+     src/
+     ├── components/
+     |     ├── Home
+     |         └── carosel.jsx
+     |         └── produk.jsx
+     |         └── favorite.jsx
+     |     └── Navbar.jsx
+     ├── data/
+     |     └── buku.jsx
+     ├── styles/
+     |     └── index.css
+     └── App.jsx
 
 🖼️ Preview UI
 
@@ -65,5 +67,4 @@ Open for contributions ✨
 Silakan fork repo, buat branch baru, lalu open pull request.
 
 📜 Lisensi
-
 MIT License © 2025
