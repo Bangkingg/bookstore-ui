@@ -38,7 +38,7 @@ npm install
 ## 4. Jalankan project
 npm run dev
 
-📁 Struktur Folder
+# 📁 Struktur Folder
 
      src/
      ├── components/
@@ -53,9 +53,7 @@ npm run dev
      |     └── index.css
      └── App.jsx
 
-🖼️ Preview UI
-
-Tambahkan screenshot tampilan web agar lebih menarik:
+# 🖼️ Preview UI
 
 ## Homepage
 ![Home Screenshot](screenshots/home.png)
