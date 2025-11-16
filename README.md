@@ -57,7 +57,10 @@ npm run dev
 
 Tambahkan screenshot tampilan web agar lebih menarik:
 
+## Homepage
 ![Home Screenshot](screenshots/home.png)
+
+## Detailpage
 ![Detail Screenshot](screenshots/detail.png)
 
 🤝 Kontribusi
