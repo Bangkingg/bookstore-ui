@@ -46,9 +46,14 @@ npm run dev
      |         └── carosel.jsx
      |         └── produk.jsx
      |         └── favorite.jsx
-     |     └── Navbar.jsx
+     |     └── navbar.jsx
      ├── data/
      |     └── buku.jsx
+     ├── pages/
+     |     └── home.jsx
+     |     └── checkout.jsx
+     |     └── detail.jsx
+     |     └── profil.jsx
      ├── styles/
      |     └── index.css
      └── App.jsx

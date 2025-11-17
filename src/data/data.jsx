@@ -8,6 +8,7 @@ import Tka from "../img/TKA.jpg";
 import White_Nights from "../img/White_Nights.jpg";
 import The_Metamorfosis from "../img/The_Metamorfosis.png";
 import filosofi_teras from "../img/filosofiteras.jpg";
+import Hujan from "../img/hujan.jpg";
 
 export const buku = [
     {
@@ -145,6 +146,19 @@ export const buku = [
         img: filosofi_teras,
         quantity: 1,
         price: 60000,
+        carosel: true,
+        favorite: false,
+        display: false,
+    },
+    {
+        id: 11,
+        title: "Hujan",
+        writer: "Tere Liye",
+        description: "Novel HUJAN berkisah tentang persahabatan, tentang cinta, tentang perpisahan, tentang melupakan, dan tentang hujan.",
+        synopsis : "Novel Hujan karya Tere Liye mengisahkan perjalanan hidup Lail, seorang gadis yang kehilangan kedua orang tuanya akibat letusan gunung dan gempa dahsyat. Dalam tragedi itu, ia diselamatkan oleh seorang anak laki-laki bernama Esok yang kemudian menjadi sosok penting dalam hidupnya. Keduanya tumbuh bersama hingga akhirnya terpisah oleh keadaan dan waktu. Seiring berjalannya tahun, jarak dan kesalahpahaman membuat hubungan mereka renggang, hingga Lail memutuskan untuk menghapus seluruh kenangannya melalui ruang modifikasi ingatan. Melalui kisah ini, Tere Liye menghadirkan refleksi tentang kehilangan, cinta, dan arti melepaskan dalam balutan dunia futuristik yang penuh emosi.",
+        img: Hujan,
+        quantity: 1,
+        price: 109000,
         carosel: true,
         favorite: false,
         display: false,
