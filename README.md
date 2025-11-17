@@ -61,10 +61,10 @@ React Hooks (useState, useEffect)
 
 # 🖼️ Preview UI
 
-## Homepage
+## Home Page
 ![Home Screenshot](screenshots/home.png)
 
-## Detailpage
+## Detail Page
 ![Detail Screenshot](screenshots/detail.png)
 
 # 🤝 Kontribusi
