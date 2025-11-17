@@ -26,17 +26,18 @@ FontAwesome Icons
 React Hooks (useState, useEffect)
 
 # 🚀 Cara Menjalankan Project
+
 ## 1. Clone repository
-git clone https://github.com/username/litera-react.git
+     git clone https://github.com/username/litera-react.git
 
 ## 2. Masuk ke folder project
-cd litera-react
+     cd litera-react
 
 ## 3. Install dependencies
-npm install
+     npm install
 
 ## 4. Jalankan project
-npm run dev
+     npm run dev
 
 # 📁 Struktur Folder
 
@@ -48,7 +49,7 @@ npm run dev
      |         └── favorite.jsx
      |     └── navbar.jsx
      ├── data/
-     |     └── buku.jsx
+     |     └── data.jsx
      ├── pages/
      |     └── home.jsx
      |     └── checkout.jsx
@@ -66,10 +67,11 @@ npm run dev
 ## Detailpage
 ![Detail Screenshot](screenshots/detail.png)
 
-🤝 Kontribusi
+# 🤝 Kontribusi
 
 Open for contributions ✨
 Silakan fork repo, buat branch baru, lalu open pull request.
 
-📜 Lisensi
+# 📜 Lisensi
+
 MIT License © 2025
