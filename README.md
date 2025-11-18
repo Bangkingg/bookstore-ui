@@ -28,7 +28,7 @@ React Hooks (useState, useEffect)
 # 🚀 Cara Menjalankan Project
 
 ## 1. Clone repository
-     git clone https://github.com/username/litera-react.git
+     git clone https://github.com/Bangkingg/bookstore-ui.git
 
 ## 2. Masuk ke folder project
      cd litera-react
