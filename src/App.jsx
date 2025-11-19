@@ -4,15 +4,41 @@ import Home from "./pages/home";
 import Profil from "./pages/profil";
 import Checkout from "./pages/checkout";
 import { useState } from "react";
-import Detail from "./pages/detail"
+import Detail from "./pages/detail";
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
 export default function App() {
   const [chart, setChart] = useState([]);
+  const Toast = Swal.mixin({
+    toast: true,
+    position: "top-end",
+    showConfirmButton: false,
+    timer: 1500,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.onmouseenter = Swal.stopTimer;
+      toast.onmouseleave = Swal.resumeTimer;
+    }
+  })
 
   const addToChart = (item) => {
     const isExist = chart.find((b) => b.id === item.id);
-    if (!isExist) {
+
+    if (isExist) {
+      Toast.fire({
+        icon: 'error',
+        title: 'Barang sudah ada dikeranjang',
+        showConfirmButton: false
+      });
+    } else {
       setChart([...chart, item]);
+
+      Toast.fire({
+        icon: 'success',
+        title: 'Barang berhasil ditambahkan',
+        showConfirmButton: false
+      });
     }
   };
   return (
@@ -25,7 +51,7 @@ export default function App() {
             <Route path="/" element={<Home addToChart={addToChart} />} />
             <Route path="/checkout" element={<Checkout chart={chart} />} />
             <Route path="/profil" element={<Profil />} />
-            <Route path="/detail/:id" element={<Detail addToChart={addToChart}/>} />
+            <Route path="/detail/:id" element={<Detail addToChart={addToChart} />} />
           </Routes>
         </div>
 
