@@ -31,7 +31,7 @@ React Hooks (useState, useEffect)
      git clone https://github.com/Bangkingg/bookstore-ui.git
 
 ## 2. Masuk ke folder project
-     cd litera-react
+     cd bookstore-ui
 
 ## 3. Install dependencies
      npm install
